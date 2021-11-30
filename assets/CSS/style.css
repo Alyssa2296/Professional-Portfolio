@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #2c2f33;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  main {
+    margin: 5px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #23272a;
+    justify-content: space-between;
+  }
+  
+  header div {
+    display: inline-flex;
+  }
+  
+  header div h1 {
+    margin-left: 10px;
+  }
+  
+  .header nav {
+    margin-left: auto;
+  }
+  
+  .header ul li {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 24px;
+  }
+  
+  .About {
+    text-align: left;
+    margin: 0 auto 30px auto;
+    overflow: auto;
+  }
+  .AboutMe {
+    width: 100%;
+    /* background: orange; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .AboutMe img {
+    width: 30%;
+  }
+  
+  .About-Me-Bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+  }
+  
+  .Text-Right {
+    text-align: right;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-container {
+    display: flex;
+  }
+  
+  .about-me-text {
+    max-width: 50%;
+    padding-top: 10%;
+    font-size: 20px;
+    margin-left: 50%;
+  }
+  
+  .projects-container {
+    display: flex;
+    /* background: green; */
+    width: 100%;
+    overflow: auto;
+    justify-content: space-between;
+  }
+  
+  .project-left-container {
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-right-container {
+    /* background: purple; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+  }
+  
+  .horieson-image {
+    height: 400px;
+    width: 600px;
+  }
+  
+  .run-buddy-image {
+    height: 400px;
+    width: 600px;
+  }
+  
+  .horieson-link {
+  }
+  
